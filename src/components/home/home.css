@@ -1,0 +1,42 @@
+.home {
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+} 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 0.6rem;
+}
+a{
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(87,87,245) !important;
+}
+.social-links a {
+  color: aliceblue;
+}
+.social-links a:hover {
+  color: rgb(87, 87, 245);
+}
+.pic {
+  display: flex ;
+  justify-content: center;
+  background-color: rgb(87, 87, 245);
+}

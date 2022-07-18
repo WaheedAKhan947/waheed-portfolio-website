@@ -1,0 +1,58 @@
+.about {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  padding-bottom: 3rem;
+}
+.text>h4{
+  color: rgb(87, 87, 245);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.9rem;
+}
+
+#about_pic {
+  width: 25vw;
+  height: 40vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 0.4rem;
+  color: black;
+  background-color: white;
+  width: 15vw;
+  border-radius: 4vh;
+  cursor: pointer;
+}
+.card>h4{
+  font-size: .9rem;
+}
+.card>p{
+  font-size: .3rem;
+}
+
+.card:hover {
+  background-color: rgb(87, 87, 245);
+}
+
+.card>p {
+  font-size: small;
+}

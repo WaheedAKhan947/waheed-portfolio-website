@@ -1,0 +1,9 @@
+body {
+  background-image: url(./assets/bg-picjpg.jpg);
+  background-size: auto;
+  background-position: bottom;
+  color: antiquewhite;
+}
+section {
+  margin-top: 8rem;
+}

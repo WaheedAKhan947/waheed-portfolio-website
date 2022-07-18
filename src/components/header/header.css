@@ -1,0 +1,10 @@
+nav a {
+  color: white !important;
+}
+ nav a.active {
+  color: rgb(87, 87, 245) !important;
+}
+nav a:hover {
+  text-decoration: none;
+  color: rgb(87, 87, 245) !important;
+}

@@ -19,7 +19,7 @@ function Home() {
       </div>
       <div className="btns">
         <button className="btn btn-primary" ><a href={CV} download>Download CV</a></button>
-        <button className="btn btn-primary"><a href="/contact">Contact ME</a></button>
+        <button className="btn btn-primary"><a href="#contact">Contact ME</a></button>
       </div>
       <div className="social-links">
         <a href="https://facebook.com/waheed.ahmad.370177" target='/blank'>

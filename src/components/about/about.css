@@ -9,7 +9,7 @@
 .text>h4{
   color: rgb(87, 87, 245);
 }
-.container {
+.about_container {
   display: flex;
   justify-content: space-between;
   gap: 1.9rem;
@@ -18,41 +18,55 @@
 #about_pic {
   width: 25vw;
   height: 40vh;
+  padding-left: 2rem;
 }
 
-.content {
+.about_content {
   display: flex;
   flex-direction: column;
+  width: 70vw;
+  align-items: flex-start;
+  justify-content: center;
   gap: 1rem;
 }
 
-.cards {
+.about_cards {
   display: flex;
   justify-content: space-around;
+  width: 90%;
 }
 
-.card {
+.about_card {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   align-items: center;
   padding: 0.4rem;
   color: black;
   background-color: white;
-  width: 15vw;
-  border-radius: 4vh;
+  width: 17vw;
+  border-radius: 22px;
   cursor: pointer;
+  text-align: center;
 }
-.card>h4{
-  font-size: .9rem;
+.about_card>article{
+  font-size: x-large;
 }
-.card>p{
+.about_card>h4{
+  font-size:100%;
+}
+  
+.about_card>p{
   font-size: .3rem;
 }
 
-.card:hover {
+.about_card:hover {
   background-color: rgb(87, 87, 245);
 }
 
-.card>p {
+.about_card>p {
   font-size: small;
+}
+.about_details{
+  text-align: justify;
+  padding-right: 3rem;
 }

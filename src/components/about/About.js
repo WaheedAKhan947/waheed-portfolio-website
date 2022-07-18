@@ -10,13 +10,13 @@ function About() {
       <h6>Get to Know</h6>
       <h4>About ME</h4>
     </div>
-    <div className="container">
-      <div className="img">
+    <div className="about_container">
+      <div className="about_img">
         <img id="about_pic" src={Pic} alt="about-pic" />
       </div>
-      <div className="content">
-        <div className="cards">
-          <div className="card">
+      <div className="about_content">
+        <div className="about_cards">
+          <div className="about_card col-4">
             <article><FaAward /></article>
             <h4>
               Experience
@@ -25,7 +25,7 @@ function About() {
               1 Year working
             </p>
           </div>
-          <div className="card">
+          <div className="about_card col-3">
             <article><BsFillPersonFill /></article>
             <h4>
               Clients
@@ -34,7 +34,7 @@ function About() {
               10+ worldwide
             </p>
           </div>
-          <div className="card">
+          <div className="about_card col-4">
             <article><AiFillProject /></article >
             <h4>
               Projects
@@ -44,14 +44,14 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="details">
+        <div className="about_details">
           <p>Pursuing my bachelor's degree from IMSciences Peshawar, in Specialization in Software Engineering. Halfway through my degree.
 I am interested in MERN stack development. I have experience in frontend web development using React, and I am still in the learning process of MERN stack development. 
 My hobbies are Photo/Videography and editing, Badminton, and video games.
 I want to connect with Software Engineers, Web and App developers, and video editors.
 My goal is to be a good human being as well as a good Developer.</p>
         </div>
-        <div className="button">
+        <div className="about_button">
             <button className="btn btn-primary" href="#contact">Let's Talk</button>
         </div>
       </div>

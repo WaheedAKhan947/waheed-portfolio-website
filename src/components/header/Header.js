@@ -12,7 +12,7 @@ function Header() {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <div>
-      <Navbar sticky="top" bg="dark" expand="lg">
+      <Navbar fixed="top" bg="dark" expand="lg">
         <Container fluid d-flex justify-content-between>
           <Navbar.Brand href="/" active>DEV. Waheed</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }} />
@@ -30,9 +30,9 @@ function Header() {
               <Nav.Link href="/services"
                 onClick={() => setActiveNav("/services")}
                 className={activeNav === "/services" ? "active" : ""}><FaTools />Services</Nav.Link>
-              <Nav.Link href="/contact"
-                onClick={() => setActiveNav("/contact")}
-                className={activeNav === "/contact" ? "active" : ""}><AiFillPhone />Contact</Nav.Link>
+              <Nav.Link href="#contact"
+                onClick={() => setActiveNav("#contact")}
+                className={activeNav === "#contact" ? "active" : ""}><AiFillPhone />Contact</Nav.Link>
               <Nav.Link href="#action1"><MdLightMode /></Nav.Link>
             </Nav>
           </Navbar.Collapse>

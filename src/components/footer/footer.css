@@ -1,0 +1,29 @@
+footer{
+    margin-top: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    background-color: #343a40;
+    text-align: center;
+}
+ul{
+    margin-block: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    font-size: .9rem;
+}
+li>a:hover{
+    color: rgb(87, 87, 245);
+}
+.footer_social_links{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: x-large;
+    margin-block: 2rem;
+}
+.footer_social_links>a{
+    color: rgb(87, 87, 245);
+    
+}

@@ -8,7 +8,7 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import CV from '../../assets/Home/waheed-cv.pdf';
-import Picture from "../../assets/Home/Profile-pic.png";
+import Picture from "../../assets/Home/pic.jpeg";
 function Home() {
   return (
     <div className="home" id="home">

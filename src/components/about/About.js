@@ -46,13 +46,13 @@ function About() {
         </div>
         <div className="about_details">
           <p>Pursuing my bachelor's degree from IMSciences Peshawar, in Specialization in Software Engineering. Halfway through my degree.
-I am interested in MERN stack development. I have experience in frontend web development using React, and I am still in the learning process of MERN stack development. 
-My hobbies are Photo/Videography and editing, Badminton, and video games.
-I want to connect with Software Engineers, Web and App developers, and video editors.
-My goal is to be a good human being as well as a good Developer.</p>
+            I am interested in MERN stack development. I have experience in frontend web development using React, and I am still in the learning process of MERN stack development.
+            My hobbies are Photo/Videography and editing, Badminton, and video games.
+            I want to connect with Software Engineers, Web and App developers, and video editors.
+            My goal is to be a good human being as well as a good Developer.</p>
         </div>
         <div className="about_button">
-            <button className="btn btn-primary" href="#contact">Let's Talk</button>
+          <button className="btn btn-primary"><a href="#contact">Let's Talk</a></button>
         </div>
       </div>
     </div>

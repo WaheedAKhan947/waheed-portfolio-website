@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import { AiFillHome, AiFillPhone } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
-// import { MdLightMode } from "react-icons/md";
+// import { VscPreview } from "react-icons/vsc";
 import { FaTools } from "react-icons/fa"
 import { useState } from "react";
 import Container from 'react-bootstrap/Container';
@@ -30,6 +30,9 @@ function Header() {
               <Nav.Link href="#experience"
                 onClick={() => setActiveNav("#experience")}
                 className={activeNav === "/experience" ? "active" : ""}><FaTools />Experience</Nav.Link>
+                {/* <Nav.Link href="#testimonials"
+                onClick={() => setActiveNav("#testimonials")}
+                className={activeNav === "/testimonials" ? "active" : ""}><VscPreview />Testimonials</Nav.Link> */}
               <Nav.Link href="#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={activeNav === "#contact" ? "active" : ""}><AiFillPhone />Contact</Nav.Link>

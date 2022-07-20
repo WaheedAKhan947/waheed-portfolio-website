@@ -1,5 +1,5 @@
 .experience {
-  padding-top: 5rem;
+  padding-block: 5rem;
 }
 .experience_content {
   display: flex;
@@ -21,13 +21,31 @@
   cursor: pointer;
 }
 .container_experience > article {
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-block: .9rem;
 }
+.container_experience>h4{
+  font-size: .9rem;
+  color: black ;
+  font-weight: bolder;
+}
+.container_experience>h6{
+  font-size: 1.7rem;
+}
+
 .container_experience:hover {
   border-style: solid;
   border-color: rgb(87, 87, 245);
   background-color: transparent;
+  
 }
-.experience_details {
+.container_experience:hover>h4{
+  color: rgb(87, 87, 245);
+}
+/* .experience_details {
   display: flex;
-}
+  align-items: flex-start;
+  
+} */

@@ -11,8 +11,8 @@ function About() {
       <h4>About ME</h4>
     </div>
     <div className="about_container">
-      <div className="about_img">
-        <img id="about_pic" src={Pic} alt="about-pic" />
+      <div className="about_img w-50">
+        <img id="about_pic" className="w-100" src={Pic} alt="about-pic" />
       </div>
       <div className="about_content">
         <div className="about_cards">

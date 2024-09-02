@@ -16,7 +16,7 @@ function Header() {
         <Container fluid d-flex justify-content-between>
           <Navbar.Brand href="/" active>DEV. Waheed</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }} />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className="flex justify-end">
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: 'max-content' }}

@@ -8,3 +8,6 @@ nav a:hover {
   text-decoration: none;
   color: rgb(87, 87, 245) !important;
 }
+navbar-collapse collapse{
+  justify-content: end;
+}
